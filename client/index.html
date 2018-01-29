@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
     <head>
-        
         <title>Alurapic</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
@@ -17,10 +16,13 @@
         
         <script src="systemjs.config.js"></script>
         <script>
-            System.import('app').catch(function(err){ console.error(err); });
+            System.import('app')
+            .catch(function(err){
+                 console.error(err); 
+                });
         </script>
     </head>
-    <body>
-        <h1 class="text-center">Alurapic</h1>
+    <body> 
+        <app>Carregando....</app>
     </body>
 </html>
